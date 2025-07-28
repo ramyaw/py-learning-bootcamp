@@ -9,14 +9,14 @@ Tasks:
 """
 
 # 1. Define list
-test_cases = ["LoginTest", "SignupTest", "SearchTest"]
+test_cases = ["LoginTest", "SignupTest", "SearchTest", "CheckoutTest"]
 
 # 2. Print each with index
 for idx, name in enumerate(test_cases, start=1):
     print(f"{idx}. {name}")
 
 # 3. Simple inline checks (like Java assertEquals)
-assert len(test_cases) == 3, "Expected 3 test cases"
-assert test_cases[0] == "LoginTest", "First test case should be LoginTest"
+assert len(test_cases) == 4, "Expected 4 test cases"
+assert test_cases[3] == "CheckoutTest", "Last test case should be CheckoutTest"
 
 print("✅ Day 1 checks passed!")
