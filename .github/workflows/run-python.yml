@@ -3,10 +3,10 @@ name: Run Python Scripts
 on:
   push:
     paths:
-      - 'week1_foundations/day1/**.py'
+      - 'week1_foundations/day1/**/*.py'
   pull_request:
     paths:
-      - 'week1_foundations/day1/**.py'
+      - 'week1_foundations/day1/**/*.py'
 
 jobs:
   build:
