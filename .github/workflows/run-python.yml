@@ -2,11 +2,11 @@ name: Run Python Scripts
 
 on:
   push:
-    paths:
-      - 'week1_foundations/day1/**/*.py'
+    branches:
+      - main
   pull_request:
-    paths:
-      - 'week1_foundations/day1/**/*.py'
+    branches:
+      - main
 
 jobs:
   build:
