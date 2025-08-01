@@ -8,12 +8,12 @@
 
 💡 Java → Python Thinking Shifts
 
-| Concept             | Java                                    | Python | 
-|---------------------|-----------------------------------------|--------|
-| Map<String, String> | HashMap<String, String>;       |dict = {}| 
-| Get Values	         | map.get("Login")	             |dict["Login"] |
-| Conditional	        | if (x.equals("pass"))             |if x == "pass"|
-| Loop	               | for (Map.Entry<String, String> entry)	            |for key, val in dict.items()|
+| Concept             | Java                                     | Python                       | 
+|---------------------|------------------------------------------|------------------------------|
+| Map<String, String> | HashMap<String, String>;                 | dict = {}                    | 
+| Get Values	       | map.get("Login")	                      | dict["Login"]                |
+| Conditional	       | if (x.equals("pass"))                    | if x == "pass"               |
+| Loop	               | for (Map.Entry<String, String> entry)	   | for key, val in dict.items() |
 
 
 
