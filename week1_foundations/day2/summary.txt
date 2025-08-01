@@ -1,0 +1,3 @@
+Total: 5
+Passed: 3
+Failed: 2
