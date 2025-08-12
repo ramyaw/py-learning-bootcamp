@@ -47,3 +47,9 @@ jobs:
           echo "Running $script"
           python "$script"
         done
+    - name: Run Python scripts in week1_foundations - Day5
+      run: |
+        find week1_foundations/day5 -name "*.py" | while read script; do
+          echo "Running $script"
+          python "$script"
+        done
